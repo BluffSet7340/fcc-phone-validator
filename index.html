@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Telephone Number Validator (US only)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <img srcset="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" />
+        <h1 class="title">Telephone Number Validator</h1>
+        <div class="phone-container">
+            <div class="phone-camera-plate">
+                <div class="camera-hole"></div>
+            </div>
+            <div class="content-container">
+                <label for="user-input">Enter a Phone Number:</label>
+                <input maxlength="20" type="text" id="user-input" />
+                <div class="results" id="results-div">
+
+                </div>
+                <div class="phone-bottom-bar">
+                    <button id="check-btn" class="btn">
+                        Check
+                    </button>
+                    <button id="clear-btn" class="btn">
+                        Clear
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
